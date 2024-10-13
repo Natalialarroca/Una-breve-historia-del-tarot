@@ -1,0 +1,77 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+
+}
+
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+    background-color: beige;
+    padding: 0 20px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 2;
+    font-size: 3rem;
+    text-align: center;
+    color: blue;
+
+}
+
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8rem;
+    background-color: white;
+
+
+    a {
+        color: black;
+        margin-left: 20px;
+        font-size: 18px;
+
+        &:hover {
+            color: blueviolet;
+        }
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin: 0;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: 'Cinzel', serif;
+            ;
+            color: blueviolet;
+
+            &:hover {
+                background-color: blanchedalmond;
+                border-radius: 35px;
+            }
+
+        }
+
+    }
+
+}
